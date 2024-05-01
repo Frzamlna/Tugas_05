@@ -1,4 +1,6 @@
-// Kelas turunan untuk tiket Festival
+// Kelas jenis tiket
 class Festival extends Tiket {
-    // Do your magic here
+    public Festival() {
+        super("Festival", 100);
+    }
 }
